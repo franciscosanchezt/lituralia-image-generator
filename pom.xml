@@ -8,7 +8,7 @@
     <version>2.3.1.RELEASE</version>
     <relativePath /> <!-- lookup parent from repository -->
   </parent>
-  <groupId>org.campusdual</groupId>
+  <groupId>com.campusdual</groupId>
   <artifactId>lituralia-image-generator</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>lituralia-image-generator</name>
