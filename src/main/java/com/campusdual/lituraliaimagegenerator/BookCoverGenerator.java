@@ -41,14 +41,14 @@ public class BookCoverGenerator implements CommandLineRunner {
 //        }
 
 
-        List<Book> all = bookRepository.findAll();
-        for (Book book : all) {
-            System.out.println(book.getCover());
-            String newCover = generateBookCover(book);
-            System.out.println(newCover);
-            book.setCover(newCover);
-            bookRepository.saveAndFlush(book);
-        }
+//        List<Book> all = bookRepository.findAll();
+//        for (Book book : all) {
+//            System.out.println(book.getCover());
+//            String newCover = generateBookCover(book);
+//            System.out.println(newCover);
+//            book.setCover(newCover);
+//            bookRepository.saveAndFlush(book);
+//        }
 
 
     }
