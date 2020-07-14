@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LituraliaImageGeneratorApplication {
+public class ZLituraliaImageGeneratorApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(LituraliaImageGeneratorApplication.class, args);
+        SpringApplication.run(ZLituraliaImageGeneratorApplication.class, args);
     }
 
 }

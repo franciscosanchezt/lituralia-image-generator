@@ -62,25 +62,5 @@
     </plugins>
   </build>
 
-  <profiles>
-    <profile>
-      <id>book_covers</id>
-      <activation>
-        <activeByDefault>false</activeByDefault>
-      </activation>
-      <properties>
-        <spring.profiles.active>book_covers</spring.profiles.active>
-      </properties>
-    </profile>
-    <profile>
-      <id>author_avatars</id>
-      <activation>
-        <activeByDefault>false</activeByDefault>
-      </activation>
-      <properties>
-        <spring.profiles.active>author_avatars</spring.profiles.active>
-      </properties>
-    </profile>
-  </profiles>
 
 </project>
